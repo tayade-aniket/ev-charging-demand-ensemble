@@ -1,0 +1,73 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Test & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ignore all dot-directories and dot-files
+.*
+# Explicitly keep essential git and version files
+!.gitignore
+!.gitattributes
+!VERSION
+!.version
+
+# AI Agent, Workspace Assistant, & Workflow files
+.agent/
+.agents/
+.gemini/
+.gsd/
+.claude/
+.cursor/
+adapters/
+scripts/
+PROJECT_RULES.md
+Project_rules.md
+project_rules.md
+GSD-STYLE.md
+model_capabilities.yaml
+build_and_execute_notebook.py
+create_junior_notebook.py
+scratch/
